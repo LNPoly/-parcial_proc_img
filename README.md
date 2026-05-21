@@ -18,9 +18,6 @@ El script en lenguaje Python y utilizando la librería PILLOW aplica una serie d
 
   * **Contraste:**
     Una vez cargada la imagen la clase 'Tonalidad' aplica el metodo 'contraste' con los mismos parametros que el brillo.
-
-  
-
     
 ## Como usar el Script
 
@@ -54,5 +51,12 @@ Para cargar la imagen, elegir la opción 1 para poder establecer la ruta de la i
 
     <img width="841" height="75" alt="pregunta_confirmacion" src="https://github.com/user-attachments/assets/f6fd3800-3115-4e19-8b44-3ac3ebe81961" />
 
+## Salir
 
+ - Mediante la selección de la últimaa opción del menú, el programa finaliza
 
+ <img width="626" height="330" alt="salir" src="https://github.com/user-attachments/assets/9bc7a487-509d-47ca-9bff-370eda01be31" />
+
+## Desiciones importantes:
+  - Se tomó la decisión de realizar un menú interactivo para agregarle funcionalidad al programa y testearlo de forma segura con posibiidad de mejorarlo a futuro
+  - Metodo 'match-case': Con el fin de evitar una cadena larga de IF-ELSE, se utilizó esta estructura equivalente al 'switch' en JAVA. Cada caso dentro del match      responde a una función específica que se elige en el menu interactivo. 
